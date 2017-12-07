@@ -13,4 +13,5 @@ a list of 10000 numbers in the range 0-9. The number at index i indicates the la
 The dataset contains another file, called batches.meta. It too contains a Python dictionary object. It has the following entries:
 label_names -- a 10-element list which gives meaningful names to the numeric labels in the labels array described above. 
 For example:
+	
 	label_names[0] == "airplane", label_names[1] == "automobile"
